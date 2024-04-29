@@ -197,12 +197,10 @@ void eliminarlista(Nodo *&lista, int &n)
         }
     if (((opc == 'S') || (opc == 's')))
     {
-        cout << "\tTodos los elementos de la lista han sido eliminados.\n"
-             << endl;
+        cout << "\tTodos los elementos de la lista han sido eliminados.\n"<< endl;
     }
     else
     {
-        cout << "\tVolver.\n"
-             << endl;
+        cout << "\tVolver.\n" << endl;
     }
 }
